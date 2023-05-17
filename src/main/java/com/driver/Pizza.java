@@ -36,7 +36,6 @@ public class Pizza {
 //        if(isToppingsAdded){
 //            this.price += myToppingAdded;
 //        }
-
         return this.price;
     }
 
@@ -63,7 +62,7 @@ public class Pizza {
         if(!isTakeawayAdded){
             isTakeawayAdded = true;
             this.price += paperBagPrice;
-            this.bill += "Paperbag Added: " + paperBagPrice + "\n";
+            this.bill += "Paper bag Added: " + paperBagPrice + "\n";
         }
         // your code goes here
     }
@@ -82,7 +81,7 @@ public class Pizza {
 //            this.bill += "Extra Toppings Added: " + myToppingAdded + "\n";
 //        }
 //        if(isTakeawayAdded){
-//            this.bill += "Paperbag Added: " + paperBagPrice + "\n";
+//            this.bill += "Paper bag Added: " + paperBagPrice + "\n";
 //        }
         this.bill += "Total price: " + this.price + "\n";
 
